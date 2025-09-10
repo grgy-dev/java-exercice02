@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
+    Scanner fodasse = new Scanner(System.in);
     System.out.println("informe um numero: ");
-    int numero = input.nextInt();
+    int numero = fodasse.nextInt();
     if ((numero) ==1){
         System.out.println("o numero e par");
     }
